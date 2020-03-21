@@ -1,0 +1,100 @@
+﻿body{
+    /*max-width: 800px;*/
+    /*background-color: azure;*/
+    /*background-color: #afeeee;*/
+    font-size: 150%;
+	color:darkgray;
+}
+
+h1 {
+	font-size: 150%;
+}
+h2 {
+	font-size: 130%;
+}
+h3 {
+	font-size: 110%;
+}
+h1, h2, h3 {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	color:#007e7e;
+}
+
+div.header{
+    text-align: center;
+	padding: 10px;
+    /*background-color: gray;*/
+}
+
+div.right, div.left{
+    /*background-color: darkgray;*/
+    padding: 10px;
+    width: 250px;
+}
+
+div.left{
+    float: left;
+}
+
+div.right{
+    float: right;
+}
+
+div.main{
+    padding: 10px;
+    max-width: 1000px;
+    margin-left: 270px;
+    margin-right: 260px;
+    /*background-color: #eeeeee;*/
+}
+
+div.footer{
+	text-align: center;
+    clear: both;
+    padding: 20px;
+    /* background-color: gray; */
+}
+
+
+
+
+
+@media screen and (max-width: 800px){
+    div.logo {
+        text-align: left;
+        float: none;
+    }
+    div.headers {
+        margin-left: 0;
+        padding: 0px;
+        width: 100%;
+    }
+
+    div.left, div.right{
+        float: none;
+        width: 100%;
+    }
+
+    div.main{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+/*
+a.blink{
+    color: rgb(50,50,50);
+    text-decoration: underline;
+}
+*/
+
+a{
+    color: rgb(50,50,50);
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: white;
+}
