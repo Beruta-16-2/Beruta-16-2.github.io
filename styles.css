@@ -3,7 +3,7 @@
     /*background-color: azure;*/
     /*background-color: #afeeee;*/
     font-size: 150%;
-	color:darkgray;
+	color:#606060;
 }
 
 h1 {
@@ -90,11 +90,12 @@ a.blink{
 */
 
 a{
-    color: rgb(50,50,50);
+    color: maroon;
     text-decoration: underline;
 }
 
 a:hover{
     text-decoration: none;
-    background-color: white;
+	color: white;
+    background-color: #007e7e;
 }
